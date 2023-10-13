@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortoFolio AgungPurnomo</title>
+
+    <style>
+        * {
+            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: linear-gradient(to bottom right, rgb(241, 241, 243), rgb(97, 86, 185));
+            position: fixed;
+            width: 100%;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            padding: 0.5em 1em;
+        }
+        nav ul li:hover {
+            background-color: rgb(236, 232, 232);
+            transform: scale(1.1);
+            border-radius: 10%;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #logo-wrapper img {
+            width: 45px;
+            position: absolute; 
+            top: -3%;    
+            left: 1%;  
+        }
+
+        #logo-wrapper a {
+            text-decoration: none;
+            color: black;
+            font-style: italic;
+            font-size: xx-large;
+            font-display: bold;
+            position: absolute; 
+            top: 15%;    
+            left: 5%;  
+        }
+
+        #logo-wrapper a span{
+            text-decoration: none;
+            color: rgba(17, 17, 17, 0.2);
+            font-style: italic;
+            font-size: xx-large;
+            position: absolute;       
+        }
+
+        .content {
+            min-height: 100vh;
+            padding: 0.5em 2em;
+            padding-top: 7em;
+            color: black;
+        }
+       
+
+        .card {
+            background-color: rgba(51, 51, 190, 0.753);
+            padding: 1em;
+            border-radius: .5em;
+        }
+
+        #content-1 {
+            /* background: tomato; */
+            background-image: url("image/home4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: larger;
+        }
+
+        #content-2 { 
+            background-image: url("image/office.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: larger;
+        }
+
+        #content-3 {
+            background-image: url("image/school.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: larger;
+        }
+
+        #content-4 {
+            background-image: url("image/ketrampilan.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: larger;
+        }
+
+        #content-5 {
+            background-image: url("image/hobi.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: larger;
+        }
+        #content-6 {
+            background-image: url("image/sertifikat.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: larger;
+        }
+        #content-7 {
+            background: white;
+        }
+
+        footer {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            font-size: 10px;
+            padding: 1em;
+        }
+
+        #btn-contact-me {
+            background-color: blue;
+            color: #fff;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 0.3em;
+        }
+
+
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        
+        <div id="logo-wrapper">
+            <img src="image/agung.png" alt="Logo" />
+            <a href="#" class="navbar-logo">Agung<span>Purnomo</span></a>
+        </div>
+
+        <nav id="menu">
+            
+            <ul>
+                <li><a href="#content-1">Tentang</a></li>
+                <li><a href="#content-2">Riwayat Pekerjaan</a></li>
+                <li><a href="#content-3">Riwayat Pendidikan</a></li>
+                <li><a href="#content-4">Keterampilan</a></li>
+                <li><a href="#content-5">Hobi</a></li>
+                <li><a href="#content-6">Sertifikat</a></li>
+                <li><a href="#content-7">Hubungi Saya</a></li>
+            </ul>
+            </div>
+        </nav>
+        
+    </header>
+
+    <main>
+
+        <section id="content-1" class="content">
+            <h3>Selamat datang di Website Agung Purnomo. Melayani <span id="typed-element"></span></h3>
+
+            <div class="card">
+                <h1>Tentang</h1>
+                <p> Setelah menyelesaikan pendidikan SMK pada tahun 2010, saya melanjutkan karir di PT Amido Makmor Tulus Sejati pada 2010 - 2018. Kemudian saya melanjutkan pekerjaan saya di PT Modern Data Solusi pada 2018 – 2019. Kemudian saya  melanjutkan pekerjaan sebagai IT Qualty Assurance di PT Icon+  Jakarta Selatan pada Oktober 2019 hingga Sekarang
+                </p>
+            </div>
+        </section>
+
+        <section id="content-2" class="content">
+            <div class="card">
+                <h1>Riwayat Pekerjaan</h1>
+                <ol>
+                    <li>PT. Amido Makmor Tulus Sejati -  Tahun 2010 Sampai Tahun 2018 
+                    <ul>
+                        <li>Service Mesin FotoCopy</li>
+                        <li>Instal LAN to Device FotoCopy </li>
+                    </ul><br/>
+                    </li>
+                    <li>PT. Modern Data Soluusi - Tahun 2018 Sampai Tahun 2019
+                        <ul>
+                            <li>Service Mesin FotoCopy</li>
+                            <li>Instal LAN to Device FotoCopy </li>
+                        </ul><br/>
+                    </li>
+                    <li>PT. Indonesia Comnet Plus (Icon Plus) - Tahun 2019 Sampai Sekarang
+                        <ul>
+                            <li>Junior UI/UX Design</li>
+                            <li>Implementor Engineer Middle</li>
+                            <li>Junior Bussiness Analyst</li>
+                            <li>Quality Assurance (Manual)</li>
+                        </ul>
+                    </li>  
+                </ol>
+            </div>
+        </section>
+
+        <section id="content-3" class="content">
+            <div class="card">
+                <h1>Riwayat Pendidikan</h1>
+                <ol>
+                    <li>SD Negeri 14 Petang Jakarta Pusat
+                    <ul>
+                        <li>Tahun 1998 - 2004</li>
+                    </ul><br/>
+                    </li>
+
+                    <li>SMP Negeri 38 Jakarta Pusat
+                    <ul>
+                        <li>Tahun 2004 - 2007 </li>
+                        </ul><br/>
+                    </li>
+
+                    <li>SMK Negeri 35 Jakarta Barat
+                        <ul>
+                            <li>Tahun 2007 - 2010</li>
+                        </ul><br/>
+                    </li>
+                    
+                     <li>Universitas Bung Karno
+                        <ul>
+                            <li>Tahun 2014 - 2018</li>
+                        </ul><br/>
+                    </li>  
+                </ol>
+             </div>
+        </section>
+
+        <section id="content-4" class="content">
+            <div class="card">
+                <h1>Keterampilan</h1>
+                <li>Menguasai Microsoft Excel</li>  
+                <li>Dapat Membuat Design Mockup Menggunakan Figma</li>  
+                <li>Menguasai SQL</li>  
+                <li>Menginstalasi LAN</li>  
+            </div>
+        </section>
+
+        <section id="content-5" class="content">
+            <div class="card">
+                <h1>Hobi</h1>
+                <li>Modifikasi Motor</li>  
+                <li>Futsal</li>  
+                <li>Berenang</li>  
+            </div>
+        </section>
+
+        <section id="content-6" class="content">
+            <div class="card">
+                <h1>Sertifikat</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum asperiores architecto deserunt pariatur nam eligendi quasi commodi sit magnam velit aut qui doloribus unde nulla minima, eveniet eos, eum laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, deserunt! Nostrum, omnis provident quam quis soluta aspernatur error odit veritatis esse dignissimos ratione cum saepe eius consequatur tenetur illum libero!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum asperiores architecto deserunt pariatur nam eligendi quasi commodi sit magnam velit aut qui doloribus unde nulla minima, eveniet eos, eum laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, deserunt! Nostrum, omnis provident quam quis soluta aspernatur error odit veritatis esse dignissimos ratione cum saepe eius consequatur tenetur illum libero!</p>
+            </div>
+        </section>
+
+        <section class="content" id="content-7">
+            <div class="card">
+                <h1>Hubungi Saya</h1>
+                <h3>Ada Pertanyaan Tentang Diri Saya atau Ingin Mendapat Infofrmasi Tentang Saya? </h3>
+                   <h4>Cukup isi formulir di bawah ini!</h4> 
+
+                <label for="email">E-Mail: </label>
+                <input type="email" id="email" name="email" placeholder="Tuliskan E-Mail" /> <br/>
+                <label for="name">Name: </label>
+                <input type="email" id="name" name="name" placeholder="Tuliskan Nama" /> <br/>
+                <label for="question">Description / Question: </label><br/>
+                <textarea name="question" id="question" cols="30" rows="10"></textarea> <br/><br/>
+
+                <button id="btn-contact-me" onclick="contactMe();"><i class="fa fa-paper-plane"></i> Kirim</button>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <span>&copy; 2023 All Rights Reserved. Agung Purnomo.</span>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+    let typed = new Typed('#typed-element', {
+            strings: [
+                'pembuatan aplikasi berbasis web',
+                'pengerjaan desain UI/UX',
+            ],
+            typeSpeed: 50,
+            backSpeed: 10,
+            loop: true
+        });
+
+        contactMe = () => {
+            Swal.fire({
+                icon: 'success',
+                title: 'Berhasil!',
+                text: 'Terima kasih telah menghubungi saya. Nanti akan saya balas via e-mail ya..',
+            });
+        }
+
+    </script>
+
+</body>
+</html>
